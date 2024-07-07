@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
     let taskDesc = document.getElementById("new-task-description").value;
     handleToDo(taskDesc);
+    taskForm.reset()
     });
 });
 
